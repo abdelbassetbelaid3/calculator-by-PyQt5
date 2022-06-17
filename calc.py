@@ -242,7 +242,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowIcon(QtGui.QIcon('C:\\Users\\abdel\\Desktop\\calcul\\logo.png'))
+        MainWindow.setWindowIcon(QtGui.QIcon('\\calculator-by-PyQt5\\logo.png'))
         MainWindow.setWindowTitle(_translate("MainWindow", "Calculator"))
         self.Button_pow.setText(_translate("MainWindow", "^"))
         self.Button_sqrt.setText(_translate("MainWindow", "^0.5"))
